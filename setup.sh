@@ -28,4 +28,4 @@ else
 	echo "tmux is already installed"
 fi
 
-echo "set -g mouse-select-pane on" > ~/.tmux.conf
+echo -e "set -g mouse-select-pane on\nset -g mouse-resize-pane on" > ~/.tmux.conf

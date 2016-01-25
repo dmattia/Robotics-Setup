@@ -1,9 +1,5 @@
 #! /bin/bash
 
-# Kill and stranded sessions
-pkill -f tmux
-pkill -f ros
-
 tmux new -s ros_session -d
 tmux split-window -h -t ros_session
 tmux split-window -v -t ros_session:0.1
