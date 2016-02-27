@@ -19,3 +19,4 @@
   pkill -f tmux;
   pkill -f ros;
   ```
+  - Sometimes, roscore may take too much time to run and will not start before the other calls. This causes an error, but you can simply go through each pane and rerun the last command after roscore is successfully running.
